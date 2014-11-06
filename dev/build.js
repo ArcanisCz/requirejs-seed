@@ -1,8 +1,9 @@
 ({
-    appDir: '../dist',
-    dir: '../dev',
+    appDir: './dev',
+    dir: '../dist/build',
     baseUrl: "./",
     fileExclusionRegExp: /(^example)|(.git)|node_modules$/,
+    separateCSS: true,
     modules: [
         {
             name: 'main.min',
@@ -21,12 +22,18 @@
     },
 
     paths: {
-        lib: "./lib",
-        cz: "./js/cz",
+        main: "../main",
+        css: "../css",
 
-        less: "./lib/less/less",
-        lessc: "./lib/less/lessc",
-        normalize: "./lib/less/normalize"
+        lib: "../lib",
+        cz: "../js/cz",
+
+        text: "../lib/require/text",
+
+        less: "../lib/less/less",
+        lessc: "../lib/less/lessc",
+        normalize: "../lib/less/normalize",
+        "less-builder": "../lib/less/less-builder"
     },
     shim: {
 
