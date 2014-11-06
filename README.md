@@ -1,0 +1,4 @@
+requirejs-seed
+==============
+
+testing project
