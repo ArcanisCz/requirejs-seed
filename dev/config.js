@@ -6,6 +6,7 @@ define([], function(){
             cz: "./js/cz",
 
             text: "./lib/require/text",
+            component: "./core/componentLoader",
 
             less: "./lib/less/less",
             lessc: "./lib/less/lessc",

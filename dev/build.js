@@ -29,6 +29,8 @@
         cz: "../js/cz",
 
         text: "../lib/require/text",
+        component: "../core/componentLoader",
+        builder: "../core/builder",
 
         less: "../lib/less/less",
         lessc: "../lib/less/lessc",
